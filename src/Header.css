@@ -74,10 +74,7 @@ nav .navbar{
   display: flex;
   list-style-type: none;
   padding: 18px 10px 10px 10px;
-  /* text-align: center;
-  align-content: center;
-  justify-content: center; */
-  margin: 0 auto;
+  margin: 0 392px;
 }
 
 
