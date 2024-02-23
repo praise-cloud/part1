@@ -1,8 +1,8 @@
 
 import * as React from 'react';
 import CalendarMonthIcon from '@mui/icons-material/CalendarMonth';
-import LightModeIcon from '@mui/icons-material/LightMode';
-import DarkModeIcon from '@mui/icons-material/DarkMode';
+import LightModeOutlinedIcon from '@mui/icons-material/LightModeOutlined';
+import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 import { alpha, styled } from '@mui/material/styles';
 import { pink } from '@mui/material/colors';
 import Switch from '@mui/material/Switch';
@@ -34,13 +34,16 @@ function  header(){
                     <h1>Analytics</h1>
 
                     {/* date function to change */}
-                    <p className="date">01/06/2024 - 31/06/2024<CalendarMonthIcon sx = {{ fontSize : 15}}></CalendarMonthIcon></p>
+                    <div className="titleDate">
+                        <p className="date">01/06/2024 - 31/06/2024</p>
+                        <CalendarMonthIcon sx = {{ fontSize : 12, fontWeight: 500, paddingLeft:2}}></CalendarMonthIcon>
+                    </div>
                 </div>
 
                 <div className="themes">
-                        <LightModeIcon></LightModeIcon>
-                         <Switch {...label} defaultChecked />
-                        <DarkModeIcon></DarkModeIcon>
+                        <LightModeOutlinedIcon sx ={{ fontSize:15}}></LightModeOutlinedIcon>
+                         <Switch {...label} defaultChecked size='small'/>
+                        <DarkModeOutlinedIcon sx={{ fontSize:15}}></DarkModeOutlinedIcon>
                 </div>
 
                 {/* user profile */}

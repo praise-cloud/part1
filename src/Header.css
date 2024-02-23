@@ -46,44 +46,53 @@
 /* styling the header section of the page with more of element selectors */
 header{
   margin: 0;
-  padding: 2px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  color: black;
 }
 
 nav{
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
+  padding: 30px;
 }
 
 nav .logo{
-  font-size: 8px;
-  font-weight: 600;
-  cursor: pointer;
-  margin: 5px;
+  font-size: 7px;
+  font-weight: 500;
 }
 
-nav .logo span {
+nav .logo span{
   color: #dc143c;
 }
 
-nav .navbar{
+nav .title {
   display: flex;
-  list-style-type: none;
-  padding: 18px 10px 10px 10px;
-  margin: 0 392px;
-}
-
-
-nav .navbar li{
-  padding: 10px 60px 10px 10px;
   align-items: center;
-  justify-items: center;
 }
 
-nav .navbar li a{
-  font-weight: 700;
+nav .title h1{
+  font-size: 30px;
+}
+
+nav .title .titleDate {
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 6px;
+  justify-content: space-around;
+  padding: 2px 6px;
+  height: 15px;
+}
+
+nav .title p{
+  font-size: 12px;
+  font-weight: 600;
+  align-items: center;
+}
+
+
+nav .themes{
+  display: flex;
+  align-items: center;
 }
