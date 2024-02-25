@@ -41,14 +41,14 @@ function  header(){
                 </div>
 
                 <div className="themes">
-                        <LightModeOutlinedIcon sx ={{ fontSize:15}}></LightModeOutlinedIcon>
+                        <LightModeOutlinedIcon sx ={{ fontSize:18}}></LightModeOutlinedIcon>
                          <Switch {...label} defaultChecked size='small'/>
-                        <DarkModeOutlinedIcon sx={{ fontSize:15}}></DarkModeOutlinedIcon>
+                        <DarkModeOutlinedIcon sx={{ fontSize:18}}></DarkModeOutlinedIcon>
                 </div>
 
                 {/* user profile */}
                 <div className="userProfile">
-                         <Avatar alt="Praise Georgewill" src="/components/avatar/1930478 pexels-gülşah-aydoğan-19501540.jpg" />
+                         <Avatar alt="Praise Georgewill" src="/components/avatar/1930478 pexels-gülşah-aydoğan-19501540.jpg" sx={{ width: 24, height: 24 , fontSize: 15, fontWeight: 600}}/>
                          <p className='profileName'>Praise Georgewill</p>
                 </div>
             </nav>
