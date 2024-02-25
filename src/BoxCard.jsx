@@ -17,17 +17,27 @@ const Item = styled(Paper)(({ theme }) => ({
 function BoxCard(){
     return(
         <Box  className='boxes' sx={{ flexGrow: 1}}>
-      <Grid container spacing={3}>
-        <Grid item xs={2}>
-          <Item>xs=8</Item>
+      <Grid container spacing={2}>
+
+        {/* this is the menu bar */}
+        <Grid item xs={2} md={2}>
+          <Item>Menu box</Item>
+        </Grid>
+        {/* for informations and charts */}
+        <Grid item xs={2} md={2}>
+          <Item>first Account</Item>
         </Grid>
 
-        {/* for informations and charts */}
-        <Grid item xs={7}>
-          <Item>xs=4</Item>
+        <Grid item xs={2} md={2}>
+          <Item>Second Account</Item>
         </Grid>
-        <Grid item xs={2}>
-          <Item>xs=4</Item>
+
+        <Grid item xs={2} md={2}>
+          <Item>Thrid Account</Item>
+        </Grid>
+
+        <Grid item xs={2} md={2}>
+          <Item>Fourth Account</Item>
         </Grid>
       </Grid>
     </Box>
