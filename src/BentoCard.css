@@ -1,0 +1,56 @@
+/* 
+*/
+
+.bentoCardSection{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bentoCardSection .dashboardCard{
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.bentoCardSection .mainChartSection{
+   border: 1px solid #ccc;
+   border-radius: 10px;
+   margin: 10px;
+   padding: 50px 70px;
+   box-shadow: 0 0 10px #ccc;
+}
+
+.bentoCardSection .mainChartSection h1{
+    margin: 10px;
+    padding: 10px;
+     
+}
+
+.bentoCardSection .subChartSection .chartCard{
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #ccc;
+    border-radius: 10px;
+    padding: 40px 30px;
+    margin: 5px;
+}
+
+.bentoCardSection .subChartSection .chartCard h1{
+    font-size: 30px;
+    align-items: center;
+}
+
+.bentoCardSection .subChartSection .subChart1{
+    grid-column: 1;
+    grid-row: 2 / 5;
+    align-self: flex-end;
+}
+
+.bentoCardSection .subChartSection .subChart2 {
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+
+}
